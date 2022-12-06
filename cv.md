@@ -21,7 +21,7 @@ I independently started learnig Python at 2019 year. I am currently working as a
 
 ## Code Examples
 
-https://github.com/prostospirit/yandex_scraper
+[YandexScraper](https://github.com/prostospirit/yandex_scraper)
 
 ## Work experience
 
@@ -31,9 +31,9 @@ Python developer
 
 ## Completed Online Courses
 
-https://stepik.org/cert/259904
-https://stepik.org/certificate/11f92bde00aa0d9dc370cc95f2d7931c1d1e311b.pdf
-https://www.datacamp.com/statement-of-accomplishment/course/abbfe5ecdda7cc728afdfc6467d18e68acda3b20
+- [Python Programming](https://stepik.org/cert/259904)
+- [Python: Fundamentals and Applications](https://stepik.org/certificate/11f92bde00aa0d9dc370cc95f2d7931c1d1e311b.pdf)
+- [Intermediate SQL Queries](https://www.datacamp.com/statement-of-accomplishment/course/abbfe5ecdda7cc728afdfc6467d18e68acda3b20)
 
 ## Languages:
 
