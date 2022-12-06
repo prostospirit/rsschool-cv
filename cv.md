@@ -2,9 +2,9 @@
 
 ## Contacts
 
-**Telegram:** @allford
-**Tel. number:** +375259017547
-**Github:** @prostospirit
+- **Telegram:** @allford
+- **Tel. number:** +375259017547
+- **Github:** @prostospirit
 
 ## About myself
 
