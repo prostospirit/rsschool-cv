@@ -18,3 +18,13 @@ I independently started learnig Python at 2019 year. I am currently working as a
 - Git
 - MongoDB (4.4+)
 - SOLID, DRY
+
+## Code Examples
+
+https://github.com/prostospirit/yandex_scraper
+
+## Work experience
+
+Python developer
+
+- Rocketdata - since 2020
