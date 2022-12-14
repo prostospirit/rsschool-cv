@@ -1,2 +1,2 @@
-https://prostospirit.github.io/rsschool-cv/cv
-https://prostospirit.github.io/rsschool-cv/
+- https://prostospirit.github.io/rsschool-cv/cv
+- https://prostospirit.github.io/rsschool-cv/
