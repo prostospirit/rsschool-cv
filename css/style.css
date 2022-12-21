@@ -36,21 +36,22 @@ body {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(176, 219, 148);
 }
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  color: white;
+  /* color: white; */
 }
 html {
   scroll-behavior: smooth;
 }
 a {
   transition: 0.3s;
+  text-decoration: none;
 }
 a:hover {
-  color: #c0bee0;
+  color: #ff0000;
 }
 span.header {
   font-weight: bold;
@@ -77,4 +78,12 @@ span.header {
 .user-image {
   width: 150px;
   border-radius: 50%;
+}
+
+.footer-container {
+    background-color:rgb(176, 219, 148);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
 }
