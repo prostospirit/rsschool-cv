@@ -1,11 +1,17 @@
 div.cv-content p {
   margin: 0;
 }
+h2 {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border-top: 1px solid black;
+  margin: 0.1em;
+}
 footer a img {
   height: 30px;
 }
 footer {
-    text-align: center;
+  text-align: center;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -19,6 +25,7 @@ body {
 }
 * {
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 .container {
   max-width: 1440px;
@@ -29,21 +36,22 @@ body {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  background-color: rgb(65, 65, 65)
+  background-color: rgb(176, 219, 148);
 }
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  color: white;
+  /* color: white; */
 }
 html {
   scroll-behavior: smooth;
 }
 a {
   transition: 0.3s;
+  text-decoration: none;
 }
 a:hover {
-  color: #c0bee0;
+  color: #ff0000;
 }
 span.header {
   font-weight: bold;
@@ -56,6 +64,7 @@ span.header {
 
 .section {
   width: 50%;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -68,5 +77,13 @@ span.header {
 }
 .user-image {
   width: 150px;
-  border-radius: 50%
+  border-radius: 50%;
+}
+
+.footer-container {
+    background-color:rgb(176, 219, 148);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
 }
