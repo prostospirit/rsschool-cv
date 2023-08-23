@@ -1,89 +1,73 @@
-div.cv-content p {
-  margin: 0;
-}
-h2 {
-  width: calc(100% - 10px);
-  padding: 10px;
-  border-top: 1px solid black;
-  margin: 0.1em;
-}
-footer a img {
-  height: 30px;
-}
-footer {
-  text-align: center;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  min-height: 100vh;
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #e9edf1;
 }
-* {
-  box-sizing: border-box;
-  /* border: 1px solid red; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
 }
+
 .container {
-  max-width: 1440px;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 20px;
 }
-.nav-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  background-color: rgb(176, 219, 148);
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
 }
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
-  /* color: white; */
-}
-html {
-  scroll-behavior: smooth;
-}
-a {
-  transition: 0.3s;
+
+.header a {
+  color: #fff;
   text-decoration: none;
 }
-a:hover {
-  color: #ff0000;
+
+.main-view {
+  text-align: center;
 }
-span.header {
-  font-weight: bold;
-}
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
+
+.user-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
 .section {
-  width: 50%;
-  padding: 10px;
+  margin: 40px 0;
 }
 
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
-.main-view {
-  text-align: center; /*Центрируем текст по горизонтали*/
+
+.section ul {
+  list-style-type: none;
 }
-.user-image {
-  width: 150px;
-  border-radius: 50%;
+
+.section ul li {
+  margin-bottom: 10px;
 }
 
 .footer-container {
-    background-color:rgb(176, 219, 148);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer-container a img {
+  width: 100px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
 }
