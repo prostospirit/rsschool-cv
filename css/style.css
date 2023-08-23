@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset default styles */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
@@ -7,6 +7,8 @@ body, h1, h2, h3, p, ul, li {
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 .container {
@@ -16,9 +18,13 @@ body {
 }
 
 .header {
-  background-color: #333;
+  background-color: #222;
   color: #fff;
   padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 .header a {
@@ -26,8 +32,33 @@ body {
   text-decoration: none;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #d9534f;
+}
+
 .main-view {
   text-align: center;
+  padding-top: 80px;
 }
 
 .user-image {
@@ -39,11 +70,20 @@ body {
 
 .section {
   margin: 40px 0;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1.1em;
+  line-height: 1.5;
 }
 
 .section ul {
@@ -54,15 +94,16 @@ body {
   margin-bottom: 10px;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
+.footer {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
 }
 
-.footer-container a img {
-  width: 100px;
+.footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Media Queries */
